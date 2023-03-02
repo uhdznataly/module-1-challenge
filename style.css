@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+
+/*changed font and bacground color */
+.header {
+    
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cornflowerblue;
+    color: #ffffff;
+}
+
+/*changed font */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/*changed color*/
+.header h1 .seo {
+    text-shadow: 5px black;
+    color: orange;
+}
+
+/*changed font */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* added border, box shadow. changed background color and font*/
+a:hover {
+    background-color: orange;
+    border: 5px solid rgb(49, 48, 48);
+    box-shadow: 5px 5px 5px gray;
+    width: 15px;
+    height: 10px;
+    border-radius: 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium ;
+    cursor: pointer;
+    background-color: gray;
+
+}
+
+
+p {
+    font-size: 16px;
+}
+
+/* added border with padding*/
+.hero {
+    border: 10px solid gray;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./Assets/images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    /* benefits box is changed to have different color background and border with box shadow. changed background color */
+    border: 10px solid gray;
+    box-shadow: 10px 10px 10px gray;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cornflowerblue;
+}
+
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* underline text*/
+h3 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* The images for the benefits box are made with a black dashed border*/
+.benefits img {
+    border: 5px dashed black;
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/*border with box shadow added. font and background color changed */
+section {
+    border: 10px solid gray;
+    box-shadow: 10px 10px 10px gray;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cornflowerblue;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
